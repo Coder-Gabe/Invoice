@@ -13,27 +13,27 @@
 </head>
 <body>
 	<main>
-		<div class="container">
-			<div class="row align-items-center">
+		<div class="container mt-4">
+			<div class="text-end d-print-none">
+				<button class="btn btn-dark" onclick="window.print()">Print This Page</button>
+			</div>
+			<div class="row border align-items-center">
 				<div class="col-sm-7 d-flex justify-content-start">
 					<img src="/img/IdeaFoundryLogo.svg" class="img-fluid mb-2" alt="Invoice Logo">
 				</div>
 				<div class="col-sm-5 d-flex justify-content-sm-end justify-content-start">
-				<strong>Invoice</strong>
+				<strong>Customer:</strong>&nbsp4908
 				</div>
-				<hr>
 			</div>		
-			<div class="row row-cols-2 row-cols-sm-2">
+			<div class="row border row-cols-2 row-cols-sm-2">
 				<div class="col-sm-6 d-flex justify-content-start">
 					<strong>Date:</strong>&nbsp;5/12/2019
 				</div>
 				<div class="col-sm-6 d-flex justify-content-sm-end">
-					<strong>Invoice No.</strong> 19005
+					<strong>Invoice No.</strong>&nbsp19005
 				</div>
-				<hr>
-				<hr>
 			</div>	
-			<div class="row row-cols-2 row-cols-sm-2">
+			<div class="row border row-cols-2 row-cols-sm-2">
 				<div class="col-sm-6 d-flex justify-content-start">
 					<div>
 						<strong>Invoice To:</strong>
@@ -91,24 +91,15 @@
 					</tbody>
 					<tfoot>
 						<tr>
-							<td></td> 
-							<td></td>
-							<td></td>
-							<td><strong>Sub Total</strong></td>
+							<td colspan="4" class="text-end" ><strong>Sub Total</strong></td>
 							<td class="text-end">$2550.00</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td><strong>Tax</strong></td>
+							<td colspan="4" class="text-end"><strong>Tax</strong></td>
 							<td class="text-end">$0.00</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td><strong>Total</strong></td>
+							<td colspan="4" class="text-end"><strong>Total</strong></td>
 							<td class="text-end">$2550.00</td>
 						</tr>
 					</tfoot>
